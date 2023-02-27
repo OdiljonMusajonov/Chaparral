@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   transition: 0.2s;
+  font-family: sans-serif;
 }
 
 .container {
@@ -117,7 +118,6 @@
 
 .section-subtitle {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 24px;
   font-family: "Inter";
 }
 
@@ -126,7 +126,15 @@
   font-family: "Inter";
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Size */
+.fs-36 {
+  font-size: 36px;
+}
+
 .fs-24 {
   font-size: 24px;
 }
@@ -152,6 +160,9 @@
 }
 
 @media (max-width: 992px) {
+  .container {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -175,5 +186,13 @@
 
   .header-navbar {
     padding: 20px 0;
+  }
+
+  .fs-36 {
+    font-size: 24px;
+  }
+
+  .fs-18 {
+    font-size: 16px;
   }
 }
