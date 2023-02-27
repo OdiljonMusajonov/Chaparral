@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.2s;
 }
 
 .container {
@@ -103,8 +104,6 @@
 
 /* Title */
 .main-title {
-  font-size: 60px;
-  line-height: 69px;
   font-family: "Fraunces 9pt";
   font-weight: 600;
 }
