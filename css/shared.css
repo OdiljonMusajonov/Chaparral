@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 145px;
+}
+
+/* HEADER SECTION */
+.header-navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-navbar-items {
+  gap: 37px;
+}
+
+.navbar-items {
+  gap: 30px;
+}
+
+.nav-icon {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  background-color: #ffff;
+  border: none;
+  margin-left: 30px;
+}
+
+.nav-icon__item {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+/* button */
+.btn {
+  border-radius: 40px;
+  padding: 15px 30px;
+  background-color: #84ae52;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.btn:hover {
+  background-color: #659727;
+}
+
+/* Nav bar */
+.nav-item {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-item:hover {
+  color: #84ae52;
+}
+
+.active {
+  color: #84ae52;
+}
+
+.nav-color {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-none {
+  list-style: none;
+}
+
+/* Flex  */
+.d-flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* Title */
+.main-title {
+  font-size: 60px;
+  line-height: 69px;
+  font-family: "Fraunces 9pt";
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 44px;
+  line-height: 54px;
+  font-family: "Fraunces 9pt";
+  font-weight: 600;
+}
+
+.section-subtitle {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  font-family: "Inter";
+}
+
+.info {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Inter";
+}
+
+/* Size */
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-items {
+    display: none;
+  }
+
+  .nav-icon {
+    display: flex;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .header-navbar__banner img {
+    width: 98%;
+  }
+
+  .header-navbar {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("Fraunces9pt-SemiBoldItalic.eot");
+  src: url("Fraunces9pt-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("Fraunces9pt-SemiBoldItalic.woff") format("woff"),
+    url("Fraunces9pt-SemiBoldItalic.ttf") format("truetype"),
+    url("Fraunces9pt-SemiBoldItalic.svg#Fraunces9pt-SemiBoldItalic")
+      format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("Fraunces9pt-Regular.eot");
+  src: url("Fraunces9pt-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Fraunces9pt-Regular.woff") format("woff"),
+    url("Fraunces9pt-Regular.ttf") format("truetype"),
+    url("Fraunces9pt-Regular.svg#Fraunces9pt-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
