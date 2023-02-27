@@ -51,6 +51,30 @@
   background: #f3f3f3;
 }
 
+/* SPECIALTIES SECTION */
+.specialties {
+  margin-top: 90px;
+}
+
+.specialties-cards {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.specialties-card {
+  cursor: pointer;
+  padding: 15px 20px;
+  border: 1px solid #0000001a;
+}
+
+.specialties-card:hover {
+  background-color: #f3f1f1;
+}
+
 @media (max-width: 1300px) {
   /* HERO */
   .hero-title {
@@ -68,6 +92,11 @@
   }
 
   /* PROGRAMS */
+
+  /* SPECIALTIES */
+  .specialties-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 992px) {
@@ -99,6 +128,12 @@
 
   .fs-18 {
     font-size: 16px;
+  }
+
+  /* SPECIALTIES */
+  .specialties-cards {
+    text-align: start;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -141,7 +176,21 @@
     width: 90%;
   }
 
-  .fs-36px {
-    font-size: 24px;
+  /* SPECIALTIES */
+  .specialties {
+    margin-top: 30px;
+  }
+
+  .specialties-title {
+    margin-top: 25px;
+  }
+
+  .specialties-cards {
+    margin-top: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  .specialties-card {
+    padding: 15px 50px;
   }
 }
