@@ -1,0 +1,310 @@
+/* Hero styles */
+
+.hero-items {
+  padding-top: 50px;
+}
+
+.hero-info {
+  width: 40%;
+}
+
+.hero-title {
+  font-size: 60px;
+  line-height: 66px;
+}
+
+.hero-banner {
+  width: 55%;
+  height: 500px;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-info__info {
+  margin-top: 22px;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: sans-serif;
+}
+
+/* WORK STYLES */
+.work {
+  margin-top: 90px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.work-items {
+  margin-top: 90px;
+}
+
+.work-items__info {
+  width: 40%;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* LINE */
+.line {
+  margin-top: 90px;
+}
+
+.line-cards {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+}
+
+.line-card {
+  background-color: #f8ffef;
+  padding: 34px;
+}
+
+.card-title {
+  margin-top: 25px;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.card-info {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.careers {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 90px;
+}
+
+.careers-items {
+  margin-top: 90px;
+  padding-bottom: 40px;
+}
+
+.section-btns {
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.section-btn1 {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background-color: #ffffff;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.section-btn1:hover {
+  box-shadow: 2px 2px 5px;
+}
+
+.section-btn1 a {
+  color: black;
+}
+
+.manager {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 35px 0;
+}
+
+.manager-subtitle {
+  margin-top: 5px;
+}
+
+.manager-img {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  /* HERO */
+  .hero-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .hero-info__info {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* LINE */
+  .line-cards {
+    grid-column-gap: 20px;
+  }
+
+  .card-title {
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .card-info {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* HERO */
+  .hero-items {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hero-info {
+    width: 100%;
+    font-size: 38px;
+  }
+
+  .hero-banner {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-banner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* WORK */
+  .work-items {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .work-items__title {
+    font-size: 38px;
+  }
+
+  .work-items__info {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  /* LINE */
+  .line-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  /* CAREERS */
+  .careers-head {
+    flex-direction: column;
+  }
+
+  .section-btns {
+    margin-top: 30px;
+  }
+
+  .careers-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  /* HERO */
+  .hero-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .hero-info__info {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .hero-banner {
+    margin-top: 20px;
+  }
+
+  /* WORK */
+  .work {
+    margin-top: 40px;
+  }
+
+  .work-items {
+    margin-top: 30px;
+  }
+
+  .work-items__title {
+    font-size: 24px;
+  }
+
+  .work-items__info {
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  /* LINE */
+  .line {
+    margin-top: 30px;
+  }
+
+  .line-cards {
+    padding: 40px 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .line-card {
+    padding: 20px;
+  }
+
+  .card-title {
+    margin-top: 15px;
+  }
+
+  .card-info {
+    margin-top: 15px;
+  }
+
+  /* CAREERS */
+  .careers {
+    margin-top: 0px;
+  }
+
+  .careers-items {
+    margin-top: 40px;
+  }
+
+  .section-btns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-btn1 {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+
+  .manager {
+    padding: 25px 0;
+  }
+
+  .footer {
+    margin-top: -30px;
+  }
+}
